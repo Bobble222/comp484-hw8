@@ -1,0 +1,105 @@
+/* Color Palette
+# - #490162 - dark purple
+# - lightskyblue
+# - #6ecb51 - green
+# - #ffb22b - orange
+# - #fc7597 - pink
+*/
+
+
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+nav {
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    position: fixed;
+    width: 100%;
+}
+body {
+
+    background: #490162;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+p {
+    font-family: 'Google Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-left: 50px;
+    overflow: hidden;
+}
+.content-info a{
+    padding: 10px;
+    display: inline-block;
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: lightskyblue;
+    padding-top: 1.5%;
+}
+footer {
+    background: #fc7597;
+    padding-bottom: 0.5%;
+    text-align: center;
+    gap: 2vw;
+}
+.profile-img {
+    border-radius: 50%;
+    /*
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    */
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-section {
+    background: #ffb22b; 
+}
+
+
+/* Education
+------------------------------------*/
+.education-section {
+    background-image: linear-gradient(rgba(110,203,81,0.5),rgba(252,117,151,0.5)),url("../images/csun-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
